@@ -482,12 +482,90 @@
             >Залиште свої дані, ми вам передзвонимо</strong
           >
           <form class="modal-form-field">
-            <label></label>
-            <input />
-            <label></label>
-            <input />
-            <label></label>
-            <input />
+            <div class="modal-form-group">
+              <label class="modal-person-label modal-label" for="modal-person"
+                >Ім'я</label
+              >
+              <input
+                class="modal-person-input modal-input"
+                name="person"
+                id="modal-person"
+                type="text"
+              />
+              <svg
+                class="modal-person-icon modal-icon"
+                width="18px"
+                height="18px"
+              >
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+            <div class="modal-form-group">
+              <label class="modal-phone-label modal-label" for="modal-phone"
+                >Телефон</label
+              >
+              <input
+                class="modal-phone-input modal-input"
+                name="phone"
+                id="modal-phone"
+                type="tel"
+              />
+              <svg
+                class="modal-phone-icon modal-icon"
+                width="18px"
+                height="18px"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="modal-form-group">
+              <label class="modal-email-label modal-label" for="modal-email"
+                >Пошта</label
+              >
+              <input
+                class="modal-email-input modal-input"
+                name="email"
+                id="modal-email"
+                type="email"
+              />
+              <svg
+                class="modal-email-icon modal-icon"
+                width="18px"
+                height="18px"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+            <div class="form-modal-group textarea-group">
+              <label
+                class="modal-textarea-label modal-label"
+                for="modal-textarea"
+                >Коментар</label
+              >
+              <textarea
+                class="modal-feedback"
+                id="modal-textarea"
+                name="feedback"
+                rows="9"
+                placeholder="Введіть текст"
+              ></textarea>
+            </div>
+            <div class="checkbox-group" role="group">
+              <input
+                class="modal-checkbox"
+                type="checkbox"
+                name="checkbox"
+                id="user-agreement"
+                value="css"
+              />
+              <label class="agreement-text" for="user-agreement"
+                >Погоджуюся з розсилкою та приймаю<a
+                  class="agreement-link"
+                  href=""
+                  > Умови договору</a
+                ></label>
+            </div>
+            <button class="modal-button" type="submit">Відправити</button>
           </form>
         </div>
       </div>
